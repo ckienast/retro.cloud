@@ -28,5 +28,7 @@ header {
 }
 
 hr {
-  border: 1px solid var(--maximum-yellow-red);
+  border: none;
+  height: 0.125em;
+  background-color: var(--maximum-yellow-red);
 }
