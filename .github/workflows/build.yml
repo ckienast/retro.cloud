@@ -27,3 +27,7 @@ jobs:
       
       - name: Zola Deploy to Pages
         uses: shalzz/zola-deploy-action@v0.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+
