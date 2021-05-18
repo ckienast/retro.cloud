@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://retro.cloud/sitemap.xml
