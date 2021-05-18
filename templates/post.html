@@ -2,11 +2,17 @@
 
 {% block content %}
 
-<h1 class="title">
-  {{ page.title }}
-</h1>
+<article>
 
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }}
+  <h1>{{ page.title }}</h1>
+
+  <small>{{ page.date }}</small>
+  <hr>
+
+  <section>
+    {{ page.content | safe }}
+  </section>
+
+</article>
 
 {% endblock content %}

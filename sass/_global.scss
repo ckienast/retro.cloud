@@ -7,3 +7,18 @@
 a {
   color: var(--maximum-yellow-red);
 }
+
+main {
+  padding-top: 1em;
+  width: 80ch;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+hr {
+  border: 1px solid var(--maximum-yellow-red);
+}

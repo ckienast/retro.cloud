@@ -10,13 +10,20 @@
 
   <link rel="stylesheet" href="/style.css">
 
-  <title>retro.cloud - trickle down thinking</title>
+  <title>{{ config.title }} - {{ config.description }}</title>
 </head>
 
 <body>
-  <section>
-    {% block content %} {% endblock %}
-  </section>
+  <main>
+    <header>
+      <h1>{{ config.title }}</h1>
+      <small>{{ config.description }}</small>
+    </header>
+
+    <section>
+      {% block content %} {% endblock %}
+    </section>
+  </main>
 </body>
 
 </html>

@@ -2,13 +2,9 @@
 
 {% block content %}
 
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
-
 <ul>
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <li><a href="{{ page.permalink | safe }}">{{ page.date }} - {{ page.title }}</a></li>
   {% endfor %}
 </ul>
 
