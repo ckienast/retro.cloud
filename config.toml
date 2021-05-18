@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://retro.cloud"
 
-description = "trickle down thinking"
+description = "trickle-down thinking"
 title = "retro.cloud"
 
 # Whether to automatically compile all Sass files in the sass directory
