@@ -22,13 +22,22 @@ main {
   margin: 0 auto;
 }
 
-header {
+main > header {
   text-align: center;
   margin-bottom: 4em;
 }
 
-hr {
-  border: none;
-  height: 0.125em;
+article > header {
+  position: relative;
+  margin-bottom: 1.2em;
+}
+
+article > header::after {
+  content: "";
+  position: absolute;
   background-color: var(--maximum-yellow-red);
+  height: 0.125em;
+  width: 100%;
+  bottom: -0.6em;
+  left: 0;
 }
