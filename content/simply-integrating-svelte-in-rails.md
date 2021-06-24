@@ -4,7 +4,7 @@ date = 2021-06-30
 draft = true
 +++
 
-At my dayjob I mostly work on Applications built with [Ruby on Rails](https://rubyonrails.org/). On a recent Project I wanted to integrate [Svelte](https://svelte.dev/) into the frontend code to replace jQuery. I believe the thing that most people would try in this sort of situation is to find a gem that integrates the frontend framework and provides a view helper to render components into regular views. Since the only gem I could find was not suitable for the project I was working on, I thought about writing the integration myself. This turned out to be a very simple task.
+At my dayjob I mostly work on applications built with [Ruby on Rails](https://rubyonrails.org/). The views in those applications are usually written in [haml](https://haml.info/). On a recent Project I wanted to integrate [Svelte](https://svelte.dev/) into the frontend code to replace jQuery. I believe the thing that most people would try in this sort of situation is to find a gem that integrates the frontend framework and provides a view helper to render components into regular views. Since the only gem I could find was not suitable for the project I was working on, I thought about writing the integration myself. This turned out to be a very simple task.
 
 I started with adding the `svelte-loader` to the project:
 
