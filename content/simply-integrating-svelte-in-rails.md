@@ -64,3 +64,7 @@ import MySuperCoolComponent from './MySuperCoolComponent.svelte';
 
 register({ MySuperCoolComponent });
 ```
+
+And it worked! I was very happy.
+
+This integration is of course extremely simplified. It doesn't for example support SSR and hydration. But it works as a stepping stone for getting Svelte components into a Rails project even in a brownfield situation.
