@@ -44,7 +44,7 @@ module SvelteHelper
 end
 ```
 
-This is of course a very rough version and you can add as many features as you want, but I wanted to know if this could work at all. The next thing I wrote was the JavaScript integration, which only consists of a simple `register` function that takes an opject of components:
+This is of course a very rough version and you can add as many features as you want, but I wanted to know if this could work at all. The next thing I wrote was the JavaScript integration, which only consists of a simple `register` function that takes an object of components:
 
 ```typescript
 export type ComponentsMap = { [key: string]: any }
@@ -91,4 +91,4 @@ register({ MySuperCoolComponent });
 
 And it worked! I was very happy.
 
-This integration is of course extremely simplified. It doesn't for example support SSR and hydration. But it works as a stepping stone for getting Svelte components into a Rails project even in a brownfield situation. It also shows, that you don't always need a gem to do the work for you.
+This integration is of course extremely simplified. It doesn't support SSR and hydration for example but it works as a stepping stone for getting Svelte components into a Rails project, even in a brownfield situation. It also shows that you don't always need a gem to do the work for you.
